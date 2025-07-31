@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Ready Africa</title>
+    <!-- Favicon for browser tab -->
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER SECTION ===== -->
+    <header>
+      <div class="header-content">
+        <div class="logo-container">
+          <img
+            src="images/logo.png"
+            alt="Job Ready Africa Logo"
+            class="header-logo"
+          />
+        </div>
+        <div class="header-text">
+          <h1>Job Ready Africa</h1>
+          <p>Find internships, scholarships, and job opportunities</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+      <!-- ===== SEARCH CONTROLS ===== -->
+      <div class="controls max-w-6xl">
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search for jobs..." />
+          <button id="searchBtn" class="search-btn">Search</button>
+        </div>
+        <!-- Category filter -->
+        <select id="category">
+          <option value="">All Categories</option>
+          <option value="software-dev">Software Development</option>
+          <option value="marketing">Marketing</option>
+          <option value="design">Design</option>
+        </select>
+      </div>
+
+      <!-- ===== JOB RESULTS CONTAINER ===== -->
+      <div id="results"></div>
+
+      <!-- ===== ERROR MESSAGE DISPLAY ===== -->
+      <div id="error" class="hidden"></div>
+
+      <!-- ===== PAGINATION CONTROLS ===== -->
+      <div id="pagination" class="pagination-controls hidden">
+        <button id="prevPage" disabled>Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage" disabled>Next</button>
+      </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>
+        Powered by Remotive API | Developed by
+        <a href="https://elox.vercel.app">Elox</a> | Built with ❤️
+      </p>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+  </body>
+</html>
