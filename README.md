@@ -3,12 +3,15 @@
 ## Description
 Find remote and local internships, scholarships, and jobs easily. Built with HTML, CSS, and JS using the Remotive API.
 
+### Live Deployment: https://job-ready-africa.onrender.com
+### Video Demo: 
+
 ## Features
 - Real-time job search
 - Filter by category or type
 - API integration
 - Error handling
-- Deployed to 2 servers + Load Balancer
+- Deployed to Render Web Hosting Server & web-01, web-02 and lb-01
 
 ## How to Run Locally
 1. Clone the repo
